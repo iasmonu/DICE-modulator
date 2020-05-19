@@ -1,0 +1,132 @@
+1:undestand the problem
+what we need:
+a: dice
+b: random numbers on the face of dice
+c:on pressing enter running again and again
+
+2: thinking about how to solve
+a: develop something that generates random number
+b: check the number 
+c: print the face
+d: looping
+
+3: main logic
+
+a:{ develop something that generates random number
+
+google: creating random numbers in python
+import random
+x = random.random()
+print(x)
+
+think of generating random numbersfrom 1 to 6
+search google: creating random integers in python in limit
+we get: randint(1,100)
+        it will generate random numbers b/w 1 and 100 for you
+        so it is what we need
+modificationL+:
+x = random.randint(1,6)
+print(x)
+
+}
+
+
+b,c:{  check the number and print the face
+
+import random 
+
+number = random.randint(1,6)
+
+if number == 1:
+	print("--------")
+	print("|      |")
+	print("|   o  |")
+	print("|      |")
+	print("--------")
+elif number == 2:
+	print("--------")
+	print("|      |")
+	print("| o  o |")
+	print("|      |")
+	print("--------")
+elif number == 3:
+	print("--------")
+	print("|      |")
+	print("|o  o o|")
+	print("|      |")
+	print("--------")
+elif number == 4:
+	print("--------")
+	print("|o    o|")
+	print("|      |")
+	print("|o    o|")
+	print("--------")
+elif number == 5:
+	print("--------")
+	print("|o    o|")
+	print("|   o  |")
+	print("|o    o|")
+	print("--------")
+else:
+	print("--------")
+	print("|o    o|")
+	print("|o    o|")
+	print("|o    o|")
+	print("--------")
+
+
+
+4: {  looping
+
+for running again and again
+
+import random 
+
+#rolling again and again (looping)
+
+
+
+
+x = 'y'
+
+while x == 'y':
+number = random.randint(1,6)
+	
+if number == 1:
+	print("--------")
+	print("|      |")
+	print("|   o  |")
+	print("|      |")
+	print("--------")
+elif number == 2:
+	print("--------")
+	print("|      |")
+	print("| o  o |")
+	print("|      |")
+	print("--------")
+elif number == 3:
+	print("--------")
+	print("|      |")
+	print("|o  o o|")
+	print("|      |")
+	print("--------")
+elif number == 4:
+	print("--------")
+	print("|o    o|")
+	print("|      |")
+	print("|o    o|")
+	print("--------")
+elif number == 5:
+	print("--------")
+	print("|o    o|")
+	print("|   o  |")
+	print("|o    o|")
+	print("--------")
+else:
+	print("--------")
+	print("|o    o|")
+	print("|o    o|")
+	print("|o    o|")
+	print("--------")
+
+x = input('y or n')
